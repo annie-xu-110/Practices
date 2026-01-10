@@ -1,0 +1,23 @@
+{
+  "name": "practices",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "build": "tsc",
+    "scrape": "ts-node src/scrapeNewrank.ts",
+    "inspect": "ts-node src/inspectPage.ts",
+    "scrape:build": "npm run build && node dist/scrapeNewrank.js",
+    "generate": "ts-node src/submitPromptToBohrium.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

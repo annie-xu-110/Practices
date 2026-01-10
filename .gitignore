@@ -1,0 +1,25 @@
+# Browser persistent data directory (contains login sessions and browser state)
+.browser-data/
+.browser-data-bohrium/
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Output files
+*.json
+!package.json
+!tsconfig.json
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.sample
