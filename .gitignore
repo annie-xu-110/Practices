@@ -9,7 +9,6 @@ node_modules/
 dist/
 
 # Output files
-*.json
 !package.json
 !tsconfig.json
 

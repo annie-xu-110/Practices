@@ -1,0 +1,34 @@
+{
+  "date": "2026-01-10",
+  "totalReferences": 2,
+  "references": [
+    {
+      "number": 1,
+      "title": "The role of ginseng in aging: Insights into regulatory T cells activation and mitochondrial regulation",
+      "titleChinese": "人参在衰老过程中的作用：对调节性T细胞激活和线粒体调节的见解",
+      "authors": [
+        "Hamid Iqbal",
+        "Dong-Kwon Rhee"
+      ],
+      "journal": "Journal of Ginseng Research",
+      "date": "2025-07-01",
+      "impactScore": "( IS 5.6 )",
+      "context": "参考文献\nHamid Iqbal, Dong-Kwon Rhee. The role of ginseng in aging: Insights into regulatory T cells activation and mitochondrial regulation. Journal of Ginseng Research, 2025. DOI: 10.1016/j.jgr.2025.05."
+    },
+    {
+      "number": 2,
+      "title": "Mitochondrial function and gastrointestinal diseases",
+      "titleChinese": "线粒体功能与胃肠道疾病",
+      "authors": [
+        "Parsa S. Haque",
+        "Neeraj Kapur",
+        "+2"
+      ],
+      "journal": "Nature Reviews Gastroenterology & Hepatology",
+      "date": "2024-05-14",
+      "impactScore": "( IS 51.0 )",
+      "context": "参考文献\nHamid Iqbal, Dong-Kwon Rhee. The role of ginseng in aging: Insights into regulatory T cells activation and mitochondrial regulation. Journal of Ginseng Research, 2025. DOI: 10.1016/j.jgr.2025.05."
+    }
+  ],
+  "note": "Bibliographic information extracted from Bohrium reference panel"
+}
