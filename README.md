@@ -237,9 +237,14 @@ npm run generate
 
 如果你需要更详细的设置指导，可以将以下提示复制到 ChatGPT、Claude 或其他 AI 助手：
 
+<details>
+<summary>📋 点击展开完整 AI 提示</summary>
+
 ```
 I need to set up a health/wellness article auto-generation project from scratch. 
 This is my first time doing something like this, so I need very detailed beginner instructions.
+
+**Important: Please respond in [YOUR PREFERRED LANGUAGE - e.g., English, Chinese, Spanish, French, etc.]**
 
 The project uses Node.js, Playwright, TypeScript, and Git.
 It does two main things:
@@ -376,21 +381,26 @@ My goal: Run this every day to generate new wellness articles automatically.
 Please make sure I can do this daily without needing technical help.
 ```
 
+</details>
+
 **如何使用这个提示：**
-1. 复制上面的代码块（从 `I need to set up...` 到最后）
-2. 打开你喜欢的 AI 聊天工具：
+1. 点击上面的「📋 点击展开完整 AI 提示」展开代码块
+2. 复制整个代码块（从 `I need to set up...` 到最后）
+3. 打开你喜欢的 AI 聊天工具：
    - ChatGPT: https://chat.openai.com
    - Claude: https://claude.ai
    - 或其他 AI 助手
-3. 将提示粘贴到聊天框
-4. 修改括号内的内容：
-   - 将 `[Windows / Mac / Linux]` 替换为你的操作系统
-   - 如果有 `[repository-url]`，替换为实际的项目 Git 地址
-5. 发送，然后按照 AI 的详细指导进行！
+4. 将提示粘贴到聊天框
+5. 修改以下内容：
+   - **语言**：将 `[YOUR PREFERRED LANGUAGE - e.g., English, Chinese, Spanish, French, etc.]` 替换为你想要的语言（英文、中文、西班牙语等）
+   - **操作系统**：将 `[Windows / Mac / Linux]` 替换为你的操作系统
+   - **Repository URL**：将 `[repository-url]` 替换为实际的项目 Git 地址
+6. 发送，然后按照 AI 用你喜欢的语言提供的详细指导进行！
 
 AI 会为你提供：
 ✅ 逐步的安装说明  
 ✅ 针对你操作系统的具体命令  
+✅ 用你选择的语言讲解  
 ✅ 每一步应该看到什么  
 ✅ 常见错误和解决方案  
 ✅ 技术术语的简单解释
