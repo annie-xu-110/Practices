@@ -241,166 +241,166 @@ npm run generate
 <summary>📋 点击展开完整 AI 提示</summary>
 
 ```
-I need to set up a health/wellness article auto-generation project from scratch. 
-This is my first time doing something like this, so I need very detailed beginner instructions.
+我需要从零开始设置一个健康养生文章自动生成项目。
+这是我第一次做这样的事情，所以我需要非常详细的初学者说明。
 
-**Important: Please respond in [YOUR PREFERRED LANGUAGE - e.g., English, Chinese, Spanish, French, etc.]**
+**重要：请用中文（简体中文）详细回复我的所有问题。**
 
-The project uses Node.js, Playwright, TypeScript, and Git.
-It does two main things:
-1. Scrapes trending health topics from Newrank website
-2. Generates articles using Bohrium AI
+项目使用 Node.js、Playwright、TypeScript 和 Git。
+它做两件主要的事情：
+1. 从新榜网站抓取热门健康话题
+2. 使用 Bohrium AI 生成文章
 
-**Complete Setup Instructions I Need:**
+**我需要的完整设置说明：**
 
-**Phase 1: Install Required Software**
-1. Git installation
-   - What is Git and why do I need it?
-   - Where to download it (provide links)
-   - Step-by-step installation for [Windows / Mac / Linux]
-   - How to verify it's installed
+**第一阶段：安装必要的软件**
+1. Git 安装
+   - Git 是什么，我为什么需要它？
+   - 在哪里下载（提供链接）
+   - 针对 [Windows / Mac / Linux] 的逐步安装说明
+   - 如何验证是否安装成功
 
-2. Node.js installation
-   - What is Node.js and npm?
-   - Download the LTS version from https://nodejs.org/
-   - Step-by-step installation for [Windows / Mac / Linux]
-   - How to verify with: node --version
-   - What to do if something goes wrong
+2. Node.js 安装
+   - Node.js 和 npm 是什么？
+   - 从 https://nodejs.org/ 下载 LTS 版本
+   - 针对 [Windows / Mac / Linux] 的逐步安装说明
+   - 如何使用以下命令验证：node --version
+   - 如果出现问题怎么办
 
-3. VS Code installation (optional but recommended)
-   - Why VS Code is useful
-   - Where to download it (https://code.visualstudio.com/)
-   - How to install it
-   - How to open files with it
+3. VS Code 安装（可选但推荐）
+   - 为什么 VS Code 有用
+   - 在哪里下载（https://code.visualstudio.com/）
+   - 如何安装
+   - 如何用它打开文件
 
-**Phase 2: Get the Project Code**
-1. How to clone the repository using Git
-   - Example: git clone [repository-url]
-   - Where the project files will be saved
-   - What each folder contains
+**第二阶段：获取项目代码**
+1. 如何使用 Git 克隆仓库
+   - 命令：git clone https://github.com/annie-xu-110/Practices
+   - 项目文件会保存在哪里
+   - 每个文件夹的用途
 
-2. If I don't have Git/command line comfort:
-   - Alternative way to download as ZIP file
-   - How to extract it
+2. 如果我不熟悉 Git/命令行
+   - 另一种下载方式（ZIP 文件）
+   - 如何解压它
 
-**Phase 3: Install Project Dependencies**
-1. Navigate to project folder in terminal:
-   - Example: cd C:\Users\YourName\Downloads\Practices (Windows)
-   - Example: cd /Users/YourName/Practices (Mac)
-   - Example: cd /home/username/Practices (Linux)
+**第三阶段：安装项目依赖**
+1. 在终端中导航到项目文件夹
+   - 首先，请问我的用户名是什么？我会告诉你
+   - Windows 示例：cd C:\Users\[你的用户名]\Downloads\Practices
+   - Mac 示例：cd /Users/[你的用户名]/Practices
+   - Linux 示例：cd /home/[你的用户名]/Practices
 
-2. Run: npm install
-   - What does this do?
-   - What should I see?
-   - How long will it take?
+2. 运行：npm install
+   - 这做什么？
+   - 我应该看到什么？
+   - 这需要多长时间？
 
-3. Run: npx playwright install chromium
-   - What is Playwright?
-   - What is Chromium?
-   - Why do we need this?
+3. 运行：npx playwright install chromium
+   - Playwright 是什么？
+   - Chromium 是什么？
+   - 我们为什么需要它？
 
-**Phase 4: First Run - Get Topics**
-1. Command: npm run scrape
-   - What happens when I run this?
-   - A browser should open automatically - explain this
-   - Where will topics be saved?
-   - How do I know it succeeded?
-   - Common errors and fixes
+**第四阶段：第一次运行 - 获取话题**
+1. 命令：npm run scrape
+   - 运行此命令时会发生什么？
+   - 浏览器应该会自动打开 - 解释这一点
+   - 话题会保存在哪里？
+   - 我怎么知道成功了？
+   - 常见错误和修复方法
 
-**Phase 5: Second Run - Generate Article**
-1. First time setup - Bohrium login
-   - I may need to log in to Bohrium AI website
-   - What to do if login is required
-   - How to close the browser after login
+**第五阶段：第二次运行 - 生成文章**
+1. 首次设置 - Bohrium 登录
+   - 我可能需要登录到 Bohrium AI 网站
+   - 如果需要登录怎么办
+   - 登录后如何关闭浏览器
 
-2. Command: npm run generate
-   - What happens when I run this?
-   - How long does it take?
-   - Where will the article be saved?
-   - What format is the article in?
-   - How do I know it succeeded?
-   - Common errors and fixes
+2. 命令：npm run generate
+   - 运行此命令时会发生什么？
+   - 需要多长时间？
+   - 文章会保存在哪里？
+   - 文章是什么格式？
+   - 我怎么知道成功了？
+   - 常见错误和修复方法
 
-**Phase 6: View Your Generated Articles**
-1. Where articles are saved
-   - Folder structure: artifacts/[date]/ 
-   - article-[date].md (the main article)
-   - references-[date].json (the references)
+**第六阶段：查看生成的文章**
+1. 文章保存的位置
+   - 文件夹结构：artifacts/[日期]/
+   - article-[日期].md（主文章）
+   - references-[日期].json（参考文献）
 
-2. How to open and read articles
-   - Open with VS Code
-   - Open with text editor (Windows/Mac/Linux specific)
-   - Can I edit the articles?
+2. 如何打开和阅读文章
+   - 用 VS Code 打开
+   - 用文本编辑器打开（Windows/Mac/Linux 特定）
+   - 我可以编辑文章吗？
 
-**Phase 7: Daily Workflow**
-1. Every day I need to run:
-   - npm run scrape (get today's topics)
-   - npm run generate (generate article)
-   - Then press Enter to close browser
+**第七阶段：每日工作流程**
+1. 每天我需要运行：
+   - npm run scrape（获取今天的话题）
+   - npm run generate（生成文章）
+   - 然后按回车键关闭浏览器
 
-2. Where to find today's article
-   - It will be in artifacts/[today's date]/
+2. 在哪里找到今天的文章
+   - 它会在 artifacts/[今天的日期]/ 文件夹中
 
-**Troubleshooting & Common Issues:**
-1. "command not found" error
-   - What this means
-   - How to fix it
+**故障排除和常见问题：**
+1. "command not found" 错误
+   - 这意味着什么
+   - 如何修复
 
-2. "npm ERR!" error
-   - What to check
-   - How to fix it
+2. "npm ERR!" 错误
+   - 需要检查什么
+   - 如何修复
 
-3. Browser opens but nothing happens
-   - Network issues
-   - Website might be slow
-   - What to do
+3. 浏览器打开但什么都没发生
+   - 网络问题
+   - 网站可能比较慢
+   - 怎么办
 
-4. First time Bohrium login needed
-   - How to log in manually
-   - When to close the browser
-   - How to run again after login
+4. 首次 Bohrium 登录需要
+   - 如何手动登录
+   - 何时关闭浏览器
+   - 登录后如何再次运行
 
-5. Article generation failed
-   - Check if npm run scrape worked first
-   - Check if topics folder has files
-   - Restart and try again
+5. 文章生成失败
+   - 检查 npm run scrape 是否成功
+   - 检查话题文件夹是否有文件
+   - 重新启动并重试
 
-6. Want to start fresh/clear logins
-   - Command to clear Newrank login: rm -rf .browser-data
-   - Command to clear Bohrium login: rm -rf .browser-data-bohrium
+6. 想要重新开始/清除登录
+   - 清除 Newrank 登录的命令：rm -rf .browser-data
+   - 清除 Bohrium 登录的命令：rm -rf .browser-data-bohrium
 
-**Important Reminders:**
-- Be clear that this is for a beginner with no programming experience
-- Provide exact commands to copy-paste
-- Explain technical terms in simple language
-- Show examples specific to Windows, Mac, and Linux
-- Tell me what SUCCESS looks like at each step
-- Explain what each tool does and why we need it
+**重要提醒：**
+- 清楚地说明这是为没有编程经验的初学者准备的
+- 提供精确的命令供我复制粘贴
+- 用简单的语言解释技术术语
+- 展示针对 Windows、Mac 和 Linux 的具体示例
+- 告诉我每一步应该看到什么样的"成功"
+- 解释每个工具的用途和我们为什么需要它
+- 不要猜测我的用户名，而是问我的用户名，这样你可以给我正确的命令
 
-My goal: Run this every day to generate new wellness articles automatically.
-Please make sure I can do this daily without needing technical help.
+我的目标：每天运行此项目以自动生成新的养生文章。
+请确保我可以每天运行此项目而不需要技术帮助。
 ```
 
 </details>
 
 **如何使用这个提示：**
 1. 点击上面的「📋 点击展开完整 AI 提示」展开代码块
-2. 复制整个代码块（从 `I need to set up...` 到最后）
+2. 复制整个代码块
 3. 打开你喜欢的 AI 聊天工具：
    - ChatGPT: https://chat.openai.com
    - Claude: https://claude.ai
    - 或其他 AI 助手
 4. 将提示粘贴到聊天框
 5. 修改以下内容：
-   - **语言**：将 `[YOUR PREFERRED LANGUAGE - e.g., English, Chinese, Spanish, French, etc.]` 替换为你想要的语言（英文、中文、西班牙语等）
    - **操作系统**：将 `[Windows / Mac / Linux]` 替换为你的操作系统
-   - **Repository URL**：将 `[repository-url]` 替换为实际的项目 Git 地址
-6. 发送，然后按照 AI 用你喜欢的语言提供的详细指导进行！
+6. 发送，AI 会用中文提供详细的设置指导，并会询问你的用户名来生成正确的命令！
 
 AI 会为你提供：
-✅ 逐步的安装说明  
+✅ 用中文详细的安装说明  
 ✅ 针对你操作系统的具体命令  
-✅ 用你选择的语言讲解  
+✅ 会询问你的用户名而不是猜测  
 ✅ 每一步应该看到什么  
 ✅ 常见错误和解决方案  
 ✅ 技术术语的简单解释
